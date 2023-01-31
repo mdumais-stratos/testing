@@ -8,5 +8,5 @@ import (
 
 func main() {
 	utils.DoStuff()
-	fmt.Println("Hello master branch")
+	fmt.Println("Hello dev branch")
 }
