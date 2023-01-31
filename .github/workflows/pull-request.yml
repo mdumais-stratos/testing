@@ -1,10 +1,9 @@
 name: Go
 
 on:
-  push:
-    branches: [master, release, dev]
   pull_request:
     types: [opened, reopened, synchronize, ready_for_review]
+    branches: [master, release, dev]
 
 jobs:
   build:
