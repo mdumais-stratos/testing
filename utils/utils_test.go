@@ -5,6 +5,6 @@ import (
 )
 
 func TestDoStuff(t *testing.T) {
-	t.Fatal("failure!")
+	t.Fatal("failure!!")
 	panic("panicking")
 }
